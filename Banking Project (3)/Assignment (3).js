@@ -6,7 +6,7 @@
 
 let account1 = {
 name: "Sherifat",
-balance: 800,
+bal: 800,
 currency: "USD",
 type: "Savings"
 };
@@ -16,7 +16,7 @@ type: "Savings"
 
 let account2 = {
 name: "Amaka",
-balance: 600,
+bal: 600,
 currency: "USD",
 type: "Checkings"
 };
@@ -26,7 +26,7 @@ type: "Checkings"
 
 let account3 = {
 name: "Josephine",
-balance: 400,
+bal: 400,
 currency: "USD",
 type: "Savings"
 };
@@ -35,7 +35,7 @@ type: "Savings"
 // Account4
 
 let account4 = {name: "Jola",
-balance: 200;
+bal: 200
 currency: "EUR",
 type: "Checkings"
 };
