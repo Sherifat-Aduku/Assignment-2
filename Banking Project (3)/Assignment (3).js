@@ -50,14 +50,14 @@ type: "Checkings"
 let Sherifatdeposit = 200
 account1.bal = 800,
 account1.bal + Sherifatdeposit
-console.log(account1.name + " new balance is: " + account1.balance + " " + account1.currency);
+console.log(account1.name + " new bal is: " + account1.bal + " " + account1.currency);
 
 // Amaka's account Deposit
 
 let Amakadeposit = 400
 account2.bal = 600,
 account2.bal + Amakadeposit
-console.log(account2.name + " new bal is: " + account2.balance + " " + account2.currency);
+console.log(account2.name + " new bal is: " + account2.bal + " " + account2.currency);
 
 
 // Simulate withdrawals:
@@ -194,7 +194,7 @@ console.log(acc.name + " status: " + status)
 console.log("Transaction Summary");
 for {
 let status;
-if (acc.balance > 0) {
+if (acc.bal > 0) {
 status = "Active"
 };
 else if (acc.bal === 0) {
