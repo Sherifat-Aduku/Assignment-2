@@ -165,8 +165,8 @@ highest = acc
 if (acc.bal < lowest.bal) {
 lowest = acc
 };
-console.log("Highest balance: " + highest.name + " with " + highest.bal + " " + highest.currency);
-console.log("Lowest bal: " + lowest.name + " with " + lowest.balance + " " + lowest.currency);
+console.log("Highest bal: " + highest.name + " with " + highest.bal + " " + highest.currency);
+console.log("Lowest bal: " + lowest.name + " with " + lowest.bal + " " + lowest.currency);
 
 
 // Account status check:
